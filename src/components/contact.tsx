@@ -27,10 +27,10 @@ const Contact: React.FC = () => {
 
     emailjs
       .sendForm(
-        "service_899jsbm",     // Your EmailJS service ID
-        "template_a5bqwro",    // Your EmailJS template ID
+        "service_899jsbm",
+        "template_a5bqwro",
         formEl,
-        "MvFhqzlQDOJ_-gDh4"    // Your EmailJS public key
+        "MvFhqzlQDOJ_-gDh4"
       )
       .then(
         () => {
@@ -45,10 +45,6 @@ const Contact: React.FC = () => {
       .finally(() => setLoading(false));
   };
 
-  const formWidth = 512;
-  const formHeight = 350;
-  const borderOffset = 8;
-
   return (
     <section id="Contact" className="bg-white text-slate-400 py-16 px-4">
       <div className="max-w-6xl mx-auto">
@@ -56,21 +52,15 @@ const Contact: React.FC = () => {
           Contact Me
         </h2>
 
-        <div className="flex flex-col md:flex-row items-start justify-center gap-12">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-12 justify-center items-start">
           {/* Contact Form */}
-          <div className="relative w-full max-w-lg">
-            <div
-              className="absolute -top-3 -left-3 border-t-4 border-l-4 border-slate-400 rounded-xl z-0 pointer-events-none"
-              style={{
-                width: `${formWidth + borderOffset}px`,
-                height: `${formHeight + borderOffset}px`,
-              }}
-            ></div>
+          <div className="relative w-full max-w-xl">
+            <div className="absolute -top-3 -left-3 w-full h-full border-t-4 border-l-4 border-slate-400 rounded-xl z-0 pointer-events-none"></div>
 
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="bg-white p-6 rounded-xl border border-slate-400 shadow-md space-y-4 relative z-10 text-slate-600"
+              className="bg-white p-6 sm:p-8 rounded-xl border border-slate-300 shadow-md space-y-4 relative z-10 text-slate-600"
             >
               <div className="grid w-full gap-1.5">
                 <Label htmlFor="name">Name</Label>
@@ -99,7 +89,7 @@ const Contact: React.FC = () => {
                 variant="outline"
                 type="submit"
                 disabled={loading}
-                className="gap-2 cursor-pointer text-slate-600 hover:text-slate-800"
+                className="gap-2 text-slate-600 hover:text-slate-800"
               >
                 {loading ? "Sending..." : "Send Message"}
               </Button>
@@ -107,19 +97,13 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="relative w-full max-w-xs">
-            <div
-              className="absolute -top-3 -left-3 border-t-4 border-l-4 border-slate-400 rounded-xl z-0 pointer-events-none"
-              style={{
-                width: `${320 + borderOffset}px`,
-                height: `${formHeight / 2 + borderOffset}px`,
-              }}
-            ></div>
+          <div className="relative w-full max-w-sm">
+            <div className="absolute -top-3 -left-3 w-full h-full border-t-4 border-l-4 border-slate-400 rounded-xl z-0 pointer-events-none"></div>
 
-            <div className="bg-white p-6 rounded-xl border border-slate-300 shadow-md text-slate-600 space-y-4 text-sm relative z-10">
+            <div className="bg-white p-6 sm:p-8 rounded-xl border border-slate-300 shadow-md text-slate-600 space-y-4 text-sm relative z-10">
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <a href="tel:+916300014247" className="no-underline hover:text-slate-600">
+                <a href="tel:+916300014247" className="hover:text-slate-600">
                   +91 6300014247
                 </a>
               </div>
@@ -127,7 +111,7 @@ const Contact: React.FC = () => {
                 <Mail className="w-5 h-5 text-primary" />
                 <a
                   href="mailto:malleboinaparamesh1@gmail.com"
-                  className="no-underline hover:text-slate-600 text-sm"
+                  className="hover:text-slate-600"
                 >
                   malleboinaparamesh1@gmail.com
                 </a>
@@ -138,7 +122,7 @@ const Contact: React.FC = () => {
                   href="https://www.google.com/maps/place/Yadadri+Bhuvanagiri,+Telangana"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="no-underline hover:text-slate-600 text-sm"
+                  className="hover:text-slate-600"
                 >
                   Yadadri Bhuvanagiri, Telangana
                 </a>
