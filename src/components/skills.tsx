@@ -13,7 +13,7 @@ import {
     DiGit,
     DiGithubBadge,
 } from 'react-icons/di';
-import { SiDart, SiFlutter, SiTailwindcss, SiC, SiTypescript } from 'react-icons/si';
+import { SiTailwindcss, SiC, SiTypescript } from 'react-icons/si';
 import { VscTerminalCmd } from 'react-icons/vsc';
 
 // Define TypeScript Interfaces
