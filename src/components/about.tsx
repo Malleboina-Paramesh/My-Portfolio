@@ -10,16 +10,17 @@ const About = () => {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-400 leading-6 sm:leading-7">
-            Hello, I’m Malleboina Paramesh, a passionate and determined final-year Computer Science and Engineering student from the culturally vibrant town of Yadadri, Telangana. I’m currently pursuing my degree at SR University, where my journey through the tech world has been driven by curiosity, perseverance, and a desire to create meaningful impact.
-          </p>
+  Hello, I’m Malleboina Paramesh, a passionate and determined Computer Science and Engineering graduate from the culturally vibrant town of Yadadri, Telangana. I completed my B.Tech from SR University in 2025 with a CGPA of 8.61. My journey through the tech world has been driven by curiosity, perseverance, and a desire to create meaningful impact.
+</p>
 
-          <p className="text-sm sm:text-base text-slate-400 leading-6 sm:leading-7">
-            Coming from a farmer’s family, I’ve grown up valuing hard work, patience, and resilience—qualities that deeply influence my academic and personal journey. I completed my Intermediate at TSRJC Sarvail (the first residential junior college in Telangana) with 94.4%, and my schooling at ZPHS Gudala with 95%.
-          </p>
+<p className="text-sm sm:text-base text-slate-400 leading-6 sm:leading-7">
+  Coming from a farmer’s family, I’ve grown up valuing hard work, patience, and resilience—qualities that deeply influence my academic and personal journey. I completed my Intermediate at TSRJC Sarvail (the first residential junior college in Telangana) with 94.4%, and my schooling at ZPHS Gundala with 95%.
+</p>
 
-          <p className="text-sm sm:text-base text-slate-400 leading-6 sm:leading-7">
-            I believe in clear communication, empathetic leadership, and consistent self-improvement. I carry a genuine eagerness to contribute meaningfully wherever I go. Whether it’s guiding peers, taking initiative, or staying consistent—I believe in showing up with purpose and intent. In my free time, I enjoy exploring stock markets and diving into Web3 technologies — for me, learning never really stops.
-          </p>
+<p className="text-sm sm:text-base text-slate-400 leading-6 sm:leading-7">
+  I believe in clear communication, empathetic leadership, and consistent self-improvement. I carry a genuine eagerness to contribute meaningfully wherever I go. Whether it’s guiding peers, taking initiative, or staying consistent—I believe in showing up with purpose and intent. In my free time, I enjoy exploring stock markets and diving into Web3 technologies — for me, learning never really stops.
+</p>
+
         </div>
 
         {/* Right: Image Section */}

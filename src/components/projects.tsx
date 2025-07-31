@@ -18,21 +18,22 @@ const projects = [
     github: "#",
     demo: "#",
   },
-  {
-    title: "Nearby Places App",
-    description: "Cross-platform app developed using Flutter and Dart to find nearby locations.",
-    techStack: ["Flutter", "Dart", "Google Maps API"],
-    github: "https://github.com/your-username/flutter-nearby-places", // <-- update this link
-    demo: "#", // add demo link if deployed or use "#"
-  },
-  
-  {
-    title: "Career Connect (Capstone)",
-    description: "A web platform that bridges learning and job opportunities for students.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
-    github: "https://github.com/Malleboina-Paramesh/Career-Connect",
-    demo: "#",
-  },
+ {
+  title: "OpportunityHUB",
+  description: "A dynamic platform that allows admins to post company profiles with job and hackathon opportunities, enabling students to discover and apply easily.",
+  techStack: ["Node.js", "Express.js", "React", "MySQL", "Tailwind CSS"],
+  github: "#", // <-- update this if actual repo link differs
+  demo: "#", // add actual deployed link or keep "#" if not deployed
+},
+
+{
+  title: "Personal Finance & Budget Management",
+  description: "A console-based C application that tracks income, expenses, and budgets in real-time using data structures And Algorithms",
+  techStack: ["C", "Data Structures"],
+  github: "#", // <-- update if actual repo differs
+  demo: "#", // for CLI apps, you can leave this as "#" or link a demo video if 
+},
+
 ];
 
 const cardWidth = 300;

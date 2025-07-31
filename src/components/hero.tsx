@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
                 Contact me!
               </Button>
             </a>
-            <a href="/Paramesh_Resume.pdf" download>
+            <a href="/Paramesh_Infosys_SP.pdf" download>
               <Button
                 size="lg"
                 variant="outline"
